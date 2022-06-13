@@ -1,0 +1,59 @@
+@media (max-width:768px) {
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        padding: 30px 30px 25px 30px;
+        background-image: url(../img/night-sky-vector-31132644.jpg);
+        background-position: center;
+        background-color: black;
+        background-color: #0006;
+        background-blend-mode: darken;
+       
+    }
+
+    .icone{
+        margin-left: 79px;
+        margin-bottom: 87px;
+    }
+
+    .container-principal {
+        display: flex;
+        font-size: 17px;
+        justify-content: center;
+        height: 443px;
+        width: 323px;
+    }
+
+    input, button {
+        height: 40px;
+        display: block;
+        border: none;
+        border-radius: 10px;
+    }
+
+    input {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+
+    button {
+        margin-bottom: 20px;
+        font-size: 22px;
+        background-color: rgb(82, 82, 234);
+    }
+
+    button:hover {
+        filter: brightness(1.2);
+        cursor: pointer;
+    }
+
+    #resposta{
+        margin-top: 20px;
+    }
+
+    #resposta div{
+        font-size: 20px;
+        font-weight: normal;
+        margin-bottom: 10px;
+        color: white;
+    }
+}
